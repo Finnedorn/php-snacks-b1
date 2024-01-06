@@ -1,4 +1,13 @@
 <?php
+// inlcude è una funzione di php utilissima che mi permette di includere altri file
+// dentro alla mia pagina senza sporcare il codice
+//in questo caso sto richiamando data.php in quanto ciclerò nel suo array associativo
+// è possibile anche utilizzarlo per includere parte dela struttua di una pagina come header o footer
+// soprattutto se voglio sharare un header tra più pagine
+
+// per una questione di organizzazione è sempre meglio accompagnare include
+// con la costante __DIR__ ."/nomeCartella/nomeFile
+// in quanto questa mi permette di restituirmi sempre la cartella in cui si trova il file!
 include __DIR__ ."/./model/data.php";
 ?>
 
