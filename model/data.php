@@ -1,4 +1,9 @@
 <?php
+// gli array in php sono un poco differenti da quelli in js
+// in php gli array hanno chiavi
+// se non si sfecificano le chiavi di base con un nome, il sistema le catalogherà con un numero da 0 in poi
+// in questo caso avendo dichiarato per ogni valore una key 
+// chiameremo questo array un array associativo!
 
 $matches = [
     [
